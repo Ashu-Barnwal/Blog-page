@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.carousel-item, img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.copyright{
+  background-color: rgb(22, 24, 24);
+  width: 100vw;
+}
