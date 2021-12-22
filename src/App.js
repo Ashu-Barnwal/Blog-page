@@ -22,6 +22,10 @@ function App() {
       setSearchResults(filteredResults.reverse());
   }, [search, posts])
 
+  useEffect(() => {
+    setPosts(data)
+  }, [])
+
   const handleResult = (e) => {
     setSearch(e.target.value);
     navigate('/post');

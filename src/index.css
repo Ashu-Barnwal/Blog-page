@@ -20,6 +20,18 @@ code {
   object-fit: cover;
   filter: brightness(80%);
 }
+.btn-slider{
+  color: rgb(167, 161, 161) !important;
+  border: 4px solid rgb(167, 161, 161) !important;
+  border-radius: 20px !important;
+  width: 10rem;
+  font-weight: bold !important;
+  background-color: rgba(59, 58, 59, 0.603) !important;
+}
+.btn-slider:hover{
+  color: crimson !important;
+  border: 4px solid crimson !important;
+}
 .card{
   transition: all 0.2s ease-in-out;
 }
@@ -36,7 +48,7 @@ code {
   transform:scale(1.05);
 }
 .card-img-overlay{
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .copyright{
   background-color: rgb(22, 24, 24);
@@ -96,5 +108,20 @@ code {
 @media (min-width: 768px){
   .postDetails{
     padding-top: 10rem;
+  }
+}@media(max-width:600px){
+  .carousel-caption p{
+    font-size: 40px;
+  }
+  .carousel-caption h4{
+    font-size: 15px;
+  }
+}
+@media(min-width:600px){
+  .carousel-caption p{
+    font-size: 80px;
+  }
+  .carousel-caption h4{
+    font-size: 25px;
   }
 }
