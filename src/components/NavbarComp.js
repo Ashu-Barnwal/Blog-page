@@ -3,12 +3,11 @@ import {
     Navbar, 
     Nav, 
     Form, 
-    FormControl, 
-    Button,
+    FormControl,
     Container
 } from "react-bootstrap";
 
-const NavbarComp = () => {
+const NavbarComp = ({search, handleResult}) => {
     return (
         <div>
             <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
@@ -28,11 +27,12 @@ const NavbarComp = () => {
                 <Form className="d-flex">
                     <FormControl
                     type="search"
-                    placeholder="Search"
+                    placeholder="Search Posts"
+                    value={search}
                     className="me-2"
+                    onChange={(e)=> handleResult(e)}
                     aria-label="Search"
                     />
-                    <Button variant="outline-success">Search</Button>
                 </Form>
                 </Navbar.Collapse>
             </Container>

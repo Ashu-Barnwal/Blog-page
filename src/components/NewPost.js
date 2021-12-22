@@ -6,7 +6,7 @@ const NewPost = ({ posts }) => {
             {posts.length ? (
                 <Feed posts={posts} />
             ) : (
-                    <p style={{marginTop:"5rem"}}>
+                    <p className="h2 text-white text-center" style={{marginTop:"5rem", marginBottom: "25rem"}}>
                         No posts to display.
                     </p>
             )}
