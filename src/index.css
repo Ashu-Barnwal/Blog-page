@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./img/wall4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
@@ -16,8 +19,24 @@ code {
   height: 100vh;
   object-fit: cover;
 }
-
+.card{
+  transition: all 0.2s ease-in-out;
+}
+.card-img{
+  box-shadow: 10px 14px 15px #000;
+  height: 20rem;
+  filter: brightness(40%);
+}
+.card:hover{
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+  transform:scale(1.05);
+}
+.card-img-overlay{
+  margin-top: 4rem;
+}
 .copyright{
   background-color: rgb(22, 24, 24);
-  width: 100vw;
 }

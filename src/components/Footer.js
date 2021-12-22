@@ -17,6 +17,7 @@ const Footer = () => {
         gmail: 'mailto:ashuu.barnwal@gmail.com',
         instagram: 'https://instagram.com/ashubarnwal'
     }
+    const today = new Date();
     
     return (
         <footer className='bg-dark'>
@@ -57,8 +58,8 @@ const Footer = () => {
                 </IconContext.Provider>
                 
             </Container>
-            <div className="copyright text-center text-white pb-1">
-                © 2021 Copyright: My Blog
+            <div className="copyright text-light text-center pb-1">
+            &copy; {today.getFullYear()} Copyright: <span className="text-secondary">My Blog</span>
                 </div>
         </footer>
     )
