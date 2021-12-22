@@ -1,8 +1,16 @@
-const NewPost = () => {
+import Feed from "./Feed"
+
+const NewPost = ({ posts }) => {
     return (
-        <div>
-            <h1>New Post</h1>
-        </div>
+        <main>
+            {posts.length ? (
+                <Feed posts={posts} />
+            ) : (
+                    <p style={{marginTop:"5rem"}}>
+                        No posts to display.
+                    </p>
+            )}
+        </main>
     )
 }
 

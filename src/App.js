@@ -64,7 +64,7 @@ function App() {
       <NavbarComp search={search} setSearch={setSearch} />
       <Routes>
         <Route path="/" element={<Home posts={posts} />} />
-        <Route path="/post" element={<NewPost/>} />
+        <Route path="/post" element={<NewPost posts={posts} />} />
         <Route path="/post/:id" element={<PostPage/>} />
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<Missing/>} />
