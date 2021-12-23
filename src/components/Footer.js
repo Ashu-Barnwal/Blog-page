@@ -28,7 +28,7 @@ const Footer = () => {
                     className: 'footerIcon' 
                     }}>
 
-                    <ul className='text-center pt-1'>
+                    <ul className='text-center pt-1 ps-0'>
                     <li className='list-inline-item'>
                         <a href={url.github} className='btn'>
                         <FaGithub />

@@ -35,7 +35,7 @@ function App() {
     <div className='App'>
       <NavbarComp search={search} handleResult={handleResult} />
       <Routes>
-        <Route path="/Blog-page" element={<Home posts={posts} />} />
+        <Route path={"/Blog-page"} element={<Home posts={posts} />} />
         <Route path="/Blog-page/post" element={<NewPost posts={searchResults} />} />
         <Route path="/Blog-page/post/:id" element={<PostPage posts={posts}/>} />
         <Route path="/Blog-page/about" element={<About posts={posts}/>} />

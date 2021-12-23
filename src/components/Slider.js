@@ -21,7 +21,7 @@ const Slider = () => {
                 <p>My Blog page</p>
                 <h4>This is a simple demonstration of blog page to showcase the react concept</h4>
                 {/* <div className="btn btn-slider">Posts</div> */}
-                <div style={{height: '7rem'}}></div>
+                <div style={{height: '8rem'}}></div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -36,7 +36,7 @@ const Slider = () => {
                 <Link to={'/Blog-page/post'}>
                     <div className="btn btn-slider"><FaFeatherAlt/> POSTS</div>
                 </Link>
-                <div style={{height: '7rem'}}></div>
+                <div style={{height: '8rem'}}></div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
@@ -49,7 +49,7 @@ const Slider = () => {
                 <p>Created with REACT</p>
                 <h4>This project is created with react & Bootstrap</h4>
                 <Link to={'/Blog-page/about'}><div className="btn btn-slider"><FaLinux/> READ ABOUT</div></Link>
-                <div style={{height: '7rem'}}></div>
+                <div style={{height: '8rem'}}></div>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>  

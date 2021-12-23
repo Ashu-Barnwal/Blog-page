@@ -60,14 +60,14 @@ code {
   background-color: rgb(22, 24, 24);
 }
 .postImg img{
-  border-radius: 4%;
+  border-radius: 30px;
   height: 30rem;
   filter: brightness(80%);
   box-shadow: 10px 14px 15px #000;
 }
 .postImg2 img{
   height: 30rem;
-  border-radius: 2%;
+  border-radius: 30px;
   box-shadow: 10px 14px 15px #000;
 }
 .postDetails{
@@ -113,6 +113,27 @@ code {
 }
 .aboutIcons ul{
   padding-inline-start: 0%;
+}
+.authorImg{
+  border: 2px solid darkgray;
+  border-radius: 100%;
+  width: 34px;
+  height: 34px;
+}
+.authorImg:hover{
+  border: 2px solid crimson;
+}
+.missLogo{
+  margin-top: 8rem;
+  display: inline-block;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate{100%{
+    transform:rotate(360deg);
+  }
 }
 @media (min-width: 768px){
   .postDetails{

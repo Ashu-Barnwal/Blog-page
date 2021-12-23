@@ -1,4 +1,5 @@
 import Feed from "./Feed"
+import Missing from "./Missing"
 
 const NewPost = ({ posts }) => {
     return (
@@ -6,9 +7,7 @@ const NewPost = ({ posts }) => {
             {posts.length ? (
                 <Feed posts={posts} />
             ) : (
-                    <p className="h2 text-white text-center" style={{marginTop:"5rem", marginBottom: "25rem"}}>
-                        No posts to display.
-                    </p>
+                    <Missing message={'No post to display!'}/>
             )}
         </main>
     )

@@ -1,7 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import { FaCalendarDay, FaSurprise, FaQuoteLeft, FaFacebookF, FaPinterest, FaSnapchatGhost } from 'react-icons/fa';
+import { FaCalendarDay, FaQuoteLeft, FaFacebookF, FaPinterest, FaSnapchatGhost } from 'react-icons/fa';
 import {IconContext} from 'react-icons';
+import Missing from "./Missing";
 
 const PostPage = ({ posts }) => {
     const url = '#';
@@ -67,15 +68,7 @@ const PostPage = ({ posts }) => {
                 </Container>
             }
             {!post &&
-                <div className="text-center mt-5 py-5 text-white">   
-                    <IconContext.Provider value={{
-                            color: "lightgreen", 
-                            size: '60px'
-                            }}>
-                        <FaSurprise/>
-                    </IconContext.Provider>
-                        <h2>No Post Found!</h2>  
-                </div>
+                <Missing message={'No post found!'}/>
             }
         </main>
     )
