@@ -10,13 +10,13 @@ const Home = ({ posts }) => {
             <Container className='mt-5 px-5'>
                 <Row>
                     <Col sm={12} md={4}>
-                        <Link to={'/post/1'}><Cards categ={['Life','Work']} posts={posts} id={0} /></Link>
+                        <Link to={'/post/1'}><Cards count={false} posts={posts} id={0} /></Link>
                     </Col>
                     <Col sm={12} md={4}>
-                        <Link to={'/post/2'}><Cards categ={['Life','Work']} posts={posts} id={1} /></Link>
+                        <Link to={'/post/2'}><Cards count={false} posts={posts} id={1} /></Link>
                     </Col>
                     <Col sm={12} md={4}>
-                        <Link to={'/post/3'}><Cards categ={['Life','Work']} posts={posts} id={2} /></Link>
+                        <Link to={'/post/3'}><Cards count={false} posts={posts} id={2} /></Link>
                     </Col>
                 </Row>
             </Container>
@@ -24,10 +24,10 @@ const Home = ({ posts }) => {
             <Container>
                 <Row>
                     <Col sm={12} md={6}>
-                        <Link to={'/post/4'}><Cards categ={['Life','Work']} posts={posts} id={3}/></Link>
+                        <Link to={'/post/4'}><Cards count={true} posts={posts} id={3}/></Link>
                     </Col>
                     <Col sm={12} md={6}>
-                        <Link to={'/post/5'}><Cards categ={['Life','Work']} posts={posts} id={4}/></Link>
+                        <Link to={'/post/5'}><Cards count={true} posts={posts} id={4}/></Link>
                     </Col>
                 </Row>
             </Container>

@@ -16,9 +16,9 @@ const Profile = () => {
     }
     return (
         <>
-            <div style={styles.div} className="list-inline-item">
+            <span style={styles.div} className="list-inline-item">
             <img style={styles.img} src="https://avatars.githubusercontent.com/u/24194881?v=4" alt="dp" />
-            </div><span className="list-inline-item">Asutosh Kr.</span> 
+            </span><span className="list-inline-item">Asutosh Kr.</span> 
         </>
     )
 }

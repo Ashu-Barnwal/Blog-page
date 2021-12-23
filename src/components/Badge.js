@@ -10,9 +10,9 @@ const Badge = ({ handleCateg }) => {
         padding: '2px'
     }
     return (
-        <div className="btn btn-disabled text-align-" style={styles}>
+        <span className="btn btn-badge btn-disabled text-align-" style={styles}>
             {handleCateg()}
-        </div>
+        </span>
     )
 }
 

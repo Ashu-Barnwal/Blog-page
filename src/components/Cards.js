@@ -3,7 +3,7 @@ import { FaCalendarDay } from 'react-icons/fa';
 import Badge from "./Badge";
 import Profile from "./Profile";
 
-const Cards = ({ post, posts, id }) => {
+const Cards = ({ post, posts, id, count }) => {
     const title = post== null ? posts[id].title : post.title;
     const img = post== null ? posts[id].img1 : post.img1;
     const desc1 = post== null ? posts[id].description : post.description;
@@ -26,7 +26,9 @@ const Cards = ({ post, posts, id }) => {
                 </Card.Text>
                 <Card.Text><Profile/>
                     <Badge handleCateg={handleCateg}/>
-                    <Badge handleCateg={handleCateg}/>
+                    {count &&
+                        <Badge handleCateg={handleCateg}/>
+                    }
                 </Card.Text>
             </Card.ImgOverlay>
         </Card>
