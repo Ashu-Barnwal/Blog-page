@@ -33,7 +33,7 @@ const Slider = () => {
                 <Carousel.Caption>
                 <p>Checkout My Latest Post</p>
                 <h4>You can click the button below or search for a post in search bar.</h4>
-                <Link to={'/post'}>
+                <Link to={'/Blog-page/post'}>
                     <div className="btn btn-slider"><FaFeatherAlt/> POSTS</div>
                 </Link>
                 <div style={{height: '7rem'}}></div>
@@ -48,7 +48,7 @@ const Slider = () => {
                 <Carousel.Caption>
                 <p>Created with REACT</p>
                 <h4>This project is created with react & Bootstrap</h4>
-                <Link to={'/about'}><div className="btn btn-slider"><FaLinux/> READ ABOUT</div></Link>
+                <Link to={'/Blog-page/about'}><div className="btn btn-slider"><FaLinux/> READ ABOUT</div></Link>
                 <div style={{height: '7rem'}}></div>
                 </Carousel.Caption>
             </Carousel.Item>

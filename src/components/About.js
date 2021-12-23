@@ -45,7 +45,7 @@ const About = ({posts}) => {
                             </li>
                             <span>| </span>
                             <li className='list-inline-item'>
-                                <Link to={'/post'} style={{ color: 'inherit', textDecoration: 'inherit' }}><p> <FaFeatherAlt/> 5 Posts</p></Link>
+                                <Link to={'/Blog-page/post'} style={{ color: 'inherit', textDecoration: 'inherit' }}><p> <FaFeatherAlt/> 5 Posts</p></Link>
                             </li>
                             </ul>
                         </IconContext.Provider>
@@ -54,13 +54,13 @@ const About = ({posts}) => {
                 </center>
                 <Row>
                     <Col sm={12} md={4}>
-                        <Link to={'/post/1'}><Cards posts={posts} id={4} /></Link>
+                        <Link to={'/Blog-page/post/1'}><Cards posts={posts} id={4} /></Link>
                     </Col>
                     <Col sm={12} md={4}>
-                        <Link to={'/post/2'}><Cards posts={posts} id={3} /></Link>
+                        <Link to={'/Blog-page/post/2'}><Cards posts={posts} id={3} /></Link>
                     </Col>
                     <Col sm={12} md={4}>
-                        <Link to={'/post/3'}><Cards posts={posts} id={2} /></Link>
+                        <Link to={'/Blog-page/post/3'}><Cards posts={posts} id={2} /></Link>
                     </Col>
                 </Row>
             </Container>
