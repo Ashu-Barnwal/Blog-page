@@ -23,7 +23,7 @@ function App() {
   }, [search, posts])
 
   useEffect(() => {
-    setPosts(data)
+    setPosts(data);
   }, [])
 
   const handleResult = (e) => {

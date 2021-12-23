@@ -56,9 +56,6 @@ code {
   -o-transform:scale(1.05);
   transform:scale(1.05);
 }
-.card-img-overlay{
-  margin-top: 2rem;
-}
 .copyright{
   background-color: rgb(22, 24, 24);
 }
@@ -108,6 +105,9 @@ code {
   width: 60%;
   color: aquamarine;
 }
+.card-img-overlay{
+  margin-top: 1rem;
+}
 .aboutIcons{
   color: aquamarine !important;
 }
@@ -118,7 +118,13 @@ code {
   .postDetails{
     padding-top: 10rem;
   }
-}@media(max-width:600px){
+}
+@media (max-width: 768px){
+  .aboutDetails{
+    width: 80%;
+  }
+}
+@media(max-width:600px){
   .carousel-caption p{
     font-size: 40px;
   }
