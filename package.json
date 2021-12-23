@@ -1,7 +1,7 @@
 {
   "name": "blog_page",
   "version": "0.1.0",
-  "homepage": "https://ashu-barnwal.github.io/Blog-page",
+  "homepage": "https://Ashu-Barnwal.github.io/Blog-page",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
