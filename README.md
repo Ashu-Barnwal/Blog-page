@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-### Check Website [![My Badge](https://img.shields.io/badge/-My_Blog-dc143c?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](https://ashu-barnwal.github.io/Color-Plate/) 
+### Check Website [![My Badge](https://img.shields.io/badge/-My_Blog-dc143c?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](https://ashu-barnwal.github.io/Blog-page/) 
 
 <img src="https://github.com/Ashu-Barnwal/Blog-page/blob/main/src/img/blog-page.png?raw=true" width="auto" alt="color-plate screen">
 

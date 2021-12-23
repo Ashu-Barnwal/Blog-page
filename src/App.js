@@ -28,7 +28,7 @@ function App() {
 
   const handleResult = (e) => {
     setSearch(e.target.value);
-    navigate('/post');
+    navigate('/Blog-page/post');
   }
 
   return (
